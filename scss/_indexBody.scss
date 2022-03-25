@@ -245,6 +245,7 @@
                 .boton__principal {
                     @include colorYbg($colorVioleta, $colorAmarillo);
                     @include tamBox(60%, 15%);
+                    @include flexCenterCenter;
                     text-transform: uppercase;
                     font-weight: bold;
                     font-size: 3vw;
